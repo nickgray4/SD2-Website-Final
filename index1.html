@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Beach Mule</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+header.w3-container.w3-blue.w3-center {
+      background-image: url('CoverPhoto1.jpg');
+      background-size: 100% 100%;
+      background-position: center;
+      color: white;
+      height: 953px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.w3-onethird video {
+  margin-top: 0;
+}
+
+.team-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex: 0 0 calc(100% - 40px);
+    text-align: center;
+    scroll-behavior: smooth;
+}
+
+.team-member {
+      text-align: center;
+      margin: 20px;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      display: inline-block; /* Display images horizontally */
+      vertical-align: top; /* Align to the top of the container */
+      box-sizing: border-box;
+}
+
+.team-member img {
+      width: 200px; /* Set the width of the image */
+      height: 200px; /* Set the height of the image */
+      object-fit: cover; /* Preserve aspect ratio; cover the container */
+      border-radius: 50%; /* Optional: Make the image circular */
+}
+
+video {
+  max-width: 64rem;
+  width: 80%;
+  max-height: 30.875rem;
+  height: 100%;
+  margin: 1.25rem auto;
+  background-color: white;
+}
+
+
+</style>
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-blue w3-card w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-blue" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#Home" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Home</a>
+    <a href="#Team" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Team</a>
+    <a href="#Deliverables" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Deliverables</a>
+    <a href="#Demo" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Demo</a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="#Home" class="w3-bar-item w3-button w3-padding-large">Home</a>
+    <a href="#Team" class="w3-bar-item w3-button w3-padding-large">Team</a>
+    <a href="#Deliverables" class="w3-bar-item w3-button w3-padding-large">Deliverables</a>
+    <a href="#Demo" class="w3-bar-item w3-button w3-padding-large">Demo</a>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-container w3-blue w3-center" style="padding:128px 16px">
+  <h1 class="w3-margin w3-jumbo">Beach Mule</h1>
+  <p class="w3-xlarge">An Innovative Beach Cart</p>
+  <a href="#Deliverables" class="w3-button w3-black w3-padding-large w3-large w3-margin-top">Get Started</a>
+</header>
+
+<!-- Intro -->
+<div id="Home" class="w3-light-grey w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <h1>Beach Mule</h1>
+      <h5 class="w3-padding-32">The beach should be a fun and relaxing experience. However, there is a lot of hassle when it comes to visiting the beach. This is where our solution comes in, Beach Mule. Beach Mule is no ordinary beach cart. It is an innovative and advanced beach cart.</h5>
+
+      <p class="w3-text-grey">Beach Mule pairs a strong motor with a smart sensor that tracks the user. It follows the user through a GPS module in the customers phone, which allows the user to carry all of their heavy belongings to the beach hands-free (Supports IOS 7+). It has a weight capacity of 120lbs, which is enough to support coolers, chairs, and many other beach items. Its strong motor allows for it to reach speeds of up to 3.5mph, which makes sure that the Beach Mule doesn't fall far behind the user.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Team -->
+<div id="Team" class="w3-row-padding w3-padding-64 w3-container team-section">
+  <div class="w3-content">
+    <div class="w3-onethird">
+      <h1>Meet the Team</h1>
+
+      <!-- Top row -->
+      <div class="team-member">
+          <img src="Meet-Garrett.jpg" alt="Team Member 1">
+          <h2>Garrett Mclaurin</h2>
+          <p>Power/Team Lead</p>
+          <p>gbm99@msstate.edu</p>
+      </div>
+  
+      <div class="team-member">
+          <img src="Meet-Nick.jpg" alt="Team Member 2">
+          <h2>Nick Gray</h2>
+          <p>Assisted Wheels Lead</p>
+          <p>nlg145@msstate.edu</p>
+      </div>
+  
+      <div class="team-member">
+          <img src="Meet-Saurav.jpeg" alt="Team Member 3">
+          <h2>Saurav Josan</h2>
+          <p>Controls Lead</p>
+          <p>sj1522@msstate.edu</p>
+      </div>
+  
+      <!-- Bottom row -->
+      <div class="team-member">
+          <img src="Meet Ryli.jpeg" alt="Team Member 4">
+          <h2>Ryli Cruz</h2>
+          <p>Microcontroller Lead</p>
+          <p>rc1950@msstate.edu</p>
+      </div>
+  
+      <div class="team-member">
+          <img src="Meet-Christian.jpg" alt="Team Member 5">
+          <h2>Christian Watson</h2>
+          <p>Tracking Lead</p>
+          <p>cw2612@msstate.edu</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Deliverables 1-->
+<div id="Deliverables" class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-third w3-center">
+      <i class="w3-padding-64 w3-text-blue w3-margin-center"></i>
+    </div>
+    <div class="w3-twothird">
+      <h1>Deliverables - Design I</h1>
+      <table style="width:100%">
+        <tr>
+          <td>Pitch Deck</td>
+          <td></td>
+          <td><a href="Pitch-Deck.pdf" download>Final</a></td>
+        </tr>
+        <tr>
+          <td>Team Charter</td>
+          <td></td>
+          <td><a href="Lab-5-Report.docx" download>Final</a></td>
+        </tr>
+        <tr>
+          <td>Design Constraints</td>
+          <td><a href="BeachMule_DesignRequirementSpecifications_Draft.pdf" download>Draft</a></td>
+          <td><a href="BeachMule_DesignRequirementSpecifications_Final.pdf" download>Final</a></td>
+        </tr>
+        <tr>
+          <td>Approach</td>
+          <td><a href="BeachMule_Approach_Draft.pdf" download>Draft</a></td>
+          <td><a href="BeachMule_Approach_Final.pdf" download>Final</a></td>
+        </tr>
+        <tr>
+          <td>Mid-Semester Design Presentation</td>
+          <td></td>
+          <td><a href="BeachMule-Mid-Design.pdf" download>Final</a></td>
+        </tr>
+        <tr>
+          <td>Executive Summary</td>
+          <td><a href="Executive Summary Draft.pdf" download>Draft</a></td>
+          <td><a href="Beach-Mule-Executive-Summary.pdf" download>Final</a></td>
+        </tr>
+        <tr>
+          <td>Final Design Presentation</td>
+          <td></td>
+          <td><a href="BeachMule Final Design Presentation.pdf" download>Final</a></td>
+      </table>
+    </div>
+  </div>
+</div>
+
+<!-- Deliverables 2-->
+<div id="Deliverables" class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-third w3-center">
+      <i class="w3-padding-64 w3-text-blue w3-margin-center"></i>
+    </div>
+    <div class="w3-twothird">
+      <h1>Deliverables - Design II</h1>
+      <table style="width:113.5%">
+        <tr>
+          <td>Business Plan</td>
+          <td></td>
+          <td><a href="Business-Plan.pdf" download>Final</a></td>
+        </tr>
+        <tr>
+          <td>Design Document</td>
+          <td></td>
+          <td><a href="BeachMule_Design_Document.pdf" download>Final</a></td>
+        </tr>
+        <tr>
+          <td>Poster</td>
+          <td></td>
+          <td><a href="Senior_Design_II_Poster.pdf" download>Final</a></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</div>
+
+<!-- Demo -->
+<div id="Demo" class="w3-row-padding w3-light-grey w3-padding-32 w3-container">
+  <div class="w3-content">
+    <div class="w3-onethird">
+      <h1>Live Demo</h1>
+      <video width="850" height="720" controls muted>
+        <source src="Motor-Video.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+      </video> 
+    </div>
+  </div>
+</div>
+
+<!-- Slogan -->
+<div class="w3-container w3-center w3-opacity w3-padding-16">
+    <h1 class="w3-margin">Worry Less, Relax More</h1>
+</div>
+
+<!-- Footer
+<footer class="w3-container w3-padding-2 w3-center w3-opacity">  
+  <div class="w3-xlarge w3-light-grey w3-padding-2">
+ </div>
+ <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">W3.CSS</a></p>
+</footer> -->
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+      // Smooth scroll to target element
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+          e.preventDefault();
+
+          document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+          });
+        });
+      });
+    });
+</script>
+</body>
+</html>
